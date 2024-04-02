@@ -1,0 +1,39 @@
+/* Hide the div initially */
+#slideDiv, #slideDivRgt {
+    opacity: 0;
+  }
+  
+  /* Define the slide-in animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+  
+  /* Apply the slide-in animation when the slideDiv has the slide-in class */
+  .slide-in {
+    display: block;
+    animation: slideIn 1s forwards;
+}
+.slide-in-right{
+      display: block;
+      animation: slideInRight 1s forwards;
+
+  }
+  

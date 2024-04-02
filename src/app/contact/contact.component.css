@@ -1,0 +1,34 @@
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in {
+    display: block;
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+  
+.slide-in-right{
+      display: block;
+      animation: slideInRight 1s forwards;
+
+  }
+  

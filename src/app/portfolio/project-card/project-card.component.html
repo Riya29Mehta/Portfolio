@@ -1,0 +1,18 @@
+<div class="card shadow text-center slide-in" style="max-width: 350px; min-width: 350px; height: 350px;">
+    <div class="card-body">
+        <h5 class="card-title">{{project.name}}</h5>
+        <p class="card-text">{{project.description}}</p>
+        <button class="btn btn-primary" (click)="openModal()">View More</button>
+    </div>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sequi quisquam dolores quo deleniti quibusdam quod delectus ipsum maiores quas! Mollitia omnis rem assumenda beatae tempore quos amet enim reiciendis.
+    </div>
+    <div class="card-footer">
+        <div class="d-flex flex-wrap justify-content-center">
+            <div *ngFor="let tag of project.tags">
+                <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
+            </div>
+        </div>
+    </div>
+</div>   

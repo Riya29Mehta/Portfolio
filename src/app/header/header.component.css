@@ -1,0 +1,33 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    background-color: black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgM44z5na5aQGymKJqakPt0NPjtoCGUvxtBg&usqp=CAU');
+    background-size: cover;
+    background-position: center; 
+}
+
+.text-center {
+    color: beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+.text{
+    letter-spacing: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 30%;
+    display:inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation:
+        typing 3s, blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: calc(100% - 1030px); }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: beige; }
+}

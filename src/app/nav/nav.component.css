@@ -1,0 +1,48 @@
+/* .nav-style{
+    background-image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgM44z5na5aQGymKJqakPt0NPjtoCGUvxtBg&usqp=CAU';
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav:hover {
+    color: #343a40;
+} */
+
+.navbar-nav {
+    margin: auto;
+    display: inline-block;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: black;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+    border-color: #151036;
+    /* background-color: rgb(20, 20, 49); */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgM44z5na5aQGymKJqakPt0NPjtoCGUvxtBg&usqp=CAU');
+    
+}
+.nav-link:active,
+.nav-link:focus {
+    color: white;
+    border-radius: 10px;
+    /* background-color: rgb(20, 20, 49); */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgM44z5na5aQGymKJqakPt0NPjtoCGUvxtBg&usqp=CAU');
+}
+
